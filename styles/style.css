@@ -5,6 +5,8 @@
 body {
     background-color: #F3F1FF;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 main {
     display: flex;
@@ -27,7 +29,37 @@ hr {
     color: #562EFF;
     margin-top: 0;
     margin-bottom: 40px;
-
+}
+ /*========================
+    Navigation bar styles
+=========================== */
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #562EFF;
+    height: 94px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon span{
+    font-size: 24px;
+}
+.icon img{
+    width: 40.42px;
+    height: 51px;
+}
+.links-profile {
+    display: flex;
+    align-items: center;
+}
+.links{  
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-right: 36px;
+    text-decoration: none;
+}
 
 /*--------------------
  top player section
