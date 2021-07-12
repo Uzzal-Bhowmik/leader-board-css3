@@ -65,7 +65,7 @@ hr {
  top player section
  ---------------------- */
 
-}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -194,6 +194,9 @@ hr {
     }
     .courses .course{
         width: 100%;
+    }
+    .nav-bar .icon{
+        display: none;
     }
 
 }
